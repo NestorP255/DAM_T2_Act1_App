@@ -1,4 +1,23 @@
-import { useState } from 'react'
+
+//import { ContadorHook } from "./components/ContadorHook"
+import { Usuarios } from "./components/Usuarios"
+const App = () => {
+  return(
+    <div>
+      <h1> Introduccion a Type Script with React </h1>
+      <hr/>
+      {/*<TiposBasicos></TiposBasicos>*/}
+      {/*<ObjetosLiterales/>*/}
+      {/*<ContadorHook/>*/}
+      {/*<Login/>*/}
+      {<Usuarios/>}
+    </div>
+  )
+}
+
+
+
+/*import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -30,6 +49,6 @@ function App() {
       </p>
     </>
   )
-}
+}*/
 
-export default App
+export default App;
